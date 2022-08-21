@@ -1,0 +1,98 @@
+
+header {
+    .toolbar {
+        height: 64px;
+    // max-width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        .search_bar {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input {
+                outline: none;
+                border-radius: 30px;
+                padding: 0px 15px;
+                height: 35px;
+                width: 50%;
+                font-size: 15px;
+            }
+            .fa-magnifying-glass {
+                font-size: 23px;
+                margin-left: 5px;
+            }
+            .fa-magnifying-glass:hover {
+                cursor: pointer;
+            }
+        }
+        .trademark {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                height: 90%;
+            }
+            h2 {
+                font-family: 'Blinker', sans-serif;
+            }
+        }
+        .form_users {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ul {
+                list-style: none;
+                li {
+                    display: inline-block;
+                    padding: 0px 20px;
+                    a {
+                        text-decoration: none;
+                        font-size: 17px;
+                    }
+                    .fa-cart-arrow-down {
+                        font-size: 25px;
+                        position: relative;
+                        .number_product {
+                            position: absolute;
+                            font-size: 13px;
+                            background-color: green;
+                            padding: 2px 8px;
+                            border-radius: 10px;
+                            color: #fff;
+                            bottom: 0;
+                            right: -25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .nav_bar {
+        background-color: #478ba2;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+                line-height: 60px;
+                a {
+                    font-size: 17px;
+                    color: #fff;
+                    padding: 0px 10px;
+                    font-weight: 550;
+                }
+                a:hover {
+                    transition: all 0.5s ease;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

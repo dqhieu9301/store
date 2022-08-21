@@ -1,0 +1,112 @@
+.sign_in {
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #478ba2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .username {
+        display: flex;
+        i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #93cbdc;
+            width: 53px;
+            height: 53px;
+            border-radius: 5px 0px 0px 5px;
+        }
+
+        input {
+            background-color: #79b4c7;
+            color: #000;
+            width: 320px;
+            height: 53px;
+            padding-left: 10px;
+            font-size: 17px;
+            border: none;
+            outline: none;
+            border-radius: 0px 5px 5px 0px;
+        }
+    }
+
+    .password {
+        margin-top: 10px;
+        display: flex;
+
+        i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #93cbdc;
+            width: 53px;
+            height: 53px;
+            border-radius: 5px 0px 0px 5px;
+        }
+
+        input {
+            background-color: #79b4c7;
+            color: #000;
+            width: 320px;
+            height: 53px;
+            padding-left: 10px;
+            font-size: 17px;
+            border: none;
+            outline: none;
+            border-radius: 0px 5px 5px 0px;
+        }
+    }
+    .Incorrect {
+        color: #ea98b7;
+        font-size: 17px;
+        display: block;
+        float: left;
+    }
+    .hiden_intro {
+        display: none;
+    }
+    .summit {
+        margin-top: 10px;
+
+        button {
+            width: 373px;
+            height: 53px;
+            background-color: #ea4c88;
+            font-weight: 900;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+    }
+
+    .summit:hover button {
+        background-color: #d44179;
+    }
+
+    span {
+        display: inline-block;
+        margin-top: 5px;
+        color: #606468;
+
+        a {
+            color: #fff;
+            margin-left: 9px;
+            i {
+                color: #606468;
+            }
+        }
+    }
+}
+
+@media (max-width:740px) {
+    .login {
+        input {
+            width: 50%;
+        }
+    }
+}
